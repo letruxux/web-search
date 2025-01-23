@@ -1,0 +1,32 @@
+{
+  "name": "@letruxux/web-search",
+  "version": "1.0.6",
+  "description": "Wrapper for web search engines libraries.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "pub": "tsc && npm publish --access public"
+  },
+  "keywords": [
+    "google",
+    "bing",
+    "web-search",
+    "scraper",
+    "no-api"
+  ],
+  "author": "letruxux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letruxux/web-search.git"
+  },
+  "dependencies": {
+    "bing-scraper": "^1.4.11",
+    "duck-duck-scrape": "^2.2.7",
+    "google-sr": "^4.1.0"
+  }
+}
