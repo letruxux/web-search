@@ -28,5 +28,8 @@
     "bing-scraper": "^1.4.11",
     "duck-duck-scrape": "^2.2.7",
     "google-sr": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
   }
 }
