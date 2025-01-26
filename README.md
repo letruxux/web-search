@@ -14,7 +14,7 @@ yarn add @letruxux/web-search
 
 ## Usage
 
-```js
+```ts
 import {
   searchGoogle,
   searchBing,
