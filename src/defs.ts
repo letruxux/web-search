@@ -1,5 +1,6 @@
 export type SearchConfig = {
   query: string;
+  /** optional, appends "site:<site>" to query */
   site?: string;
 };
 
